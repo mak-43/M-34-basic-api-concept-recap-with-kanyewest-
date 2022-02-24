@@ -10,7 +10,7 @@ const displayBuddies=data=>{
     const buddiesDiv=document.getElementById('buddies')
     for(const i of buddies){
         const p=document.createElement('p')
-        p.innerText=`Name:${i.name.title}${i.name.first} ${i.last} email:${i.email}`
+        p.innerText=`Name:  ${i.name.title}${i.name.first} ${i.last} email:${i.email}`
         buddiesDiv.appendChild(p)
 
         console.log(p)
